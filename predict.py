@@ -5,7 +5,7 @@ model = joblib.load("data/spam_model.pkl")
 vectorizer = joblib.load("data/vectorizer.pkl")
 
 # New message
-message = ["Meet me at the park at 5 PM today"]
+message = ["WINNER!! As a valued network customer you have been selected to receivea 900 prize reward! To claim call 09061701461. Claim code KL341. Valid 12 hours only."]
 
 # Convert message into the same numerical format
 X = vectorizer.transform(message)
