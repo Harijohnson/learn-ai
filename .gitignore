@@ -1,1 +1,9 @@
+# Python virtual environment (each machine creates its own)
 venv/
+
+# Python bytecode / caches — regenerated automatically, never commit
+__pycache__/
+*.pyc
+
+# NOTE: trained models and datasets under data/ ARE committed on purpose,
+# so anyone who clones this repo gets them without re-running the scripts.
